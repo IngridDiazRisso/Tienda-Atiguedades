@@ -1,0 +1,110 @@
+{
+  "furniture": [
+    {
+      "nombre": "Silla Barroca",
+      "imagen": "img/muebles/Silla-barroca.webp",
+      "precio": "120€"
+    },
+    {
+      "nombre": "Biombo de Madera",
+      "imagen": "img/muebles/Biombo-de-madera.avif",
+      "precio": "240€"
+    },
+    {
+      "nombre": "Cuadro de payaso óleof",
+      "imagen": "img/muebles/Cuadro_payaso_óleo.avif",
+      "precio": "180€"
+    },
+    {
+      "nombre": "Escritorio de Luis XV",
+      "imagen": "img/muebles/Escritorio_Luis_XV.avif",
+      "precio": "440€"
+    }
+  ],
+  "jewelry": [
+    {
+      "nombre": "Anillo S.XVII",
+      "imagen": "img/joyeria/Anillo-s.XVII.webp",
+      "precio": "350€"
+    },
+    {
+      "nombre": "Cruz oro del barroco",
+      "imagen": "img/joyeria/Cruz-oro-del-barroco.jpg",
+      "precio": "360€"
+    },
+    {
+      "nombre": "Pendientes modernistas 1910",
+      "imagen": "img/joyeria/Pendientes-modernistas-1910.webp",
+      "precio": "140€"
+    },
+    {
+      "nombre": "Póster película Pulp Fiction",
+      "imagen": "img/joyeria/Pendientes-modernistas-1910.webp",
+      "precio": "80€"
+    },
+    {
+      "nombre": "Reproducción numerada póster Alfons Mucha",
+      "imagen": "img/joyeria/Reproducción-numerada-póster-Alfons-Mucha.jpg",
+      "precio": "180€"
+    }
+  ],
+  "multimedia": [
+    {
+      "nombre": "Cámara Bolex H16 años 60",
+      "imagen": "img/multimedia/Cámara-Bolex.jpg",
+      "precio": "500€"
+    },
+    {
+      "nombre": "Discos de vinilo de jazz",
+      "imagen": "img/multimedia/Discos-vinilo-jazz.webp",
+      "precio": "270€"
+    },
+    {
+      "nombre": "Película 16mm Star Wars",
+      "imagen": "img/multimedia/Película-Star-Wars.jpg",
+      "precio": "70€"
+    },
+    {
+      "nombre": "Proyector super‑8 mm",
+      "imagen": "img/multimedia/Proyectorsuper‑8mm.jpg",
+      "precio": "90€"
+    },
+    {
+      "nombre": "Radio de válvulas",
+      "imagen": "img/multimedia/Radio-válvulas.jpg",
+      "precio": "90€"
+    }
+  ],
+  "toys": [
+    {
+      "nombre": "Camión de madera",
+      "imagen": "img/juguetes/Camión-madera.jpg",
+      "precio": "20€"
+    },
+    {
+      "nombre": "Cromos Disney años 60",
+      "imagen": "img/juguetes/Cromos-Disney-60.webp",
+      "precio": "50€"
+    },
+    {
+      "nombre": "Juguete radio miniatura",
+      "imagen": "img/juguetes/Juguete-radio-miniatura.jpg",
+      "precio": "20€"
+    },
+    {
+      "nombre": "Monedas francesas s.XIX2",
+      "imagen": "img/juguetes/Monedas-francesas.webp",
+      "precio": "30€"
+    },
+    {
+      "nombre": "Sellos",
+      "imagen": "img/juguetes/Sellos.jpg",
+      "precio": "30€"
+    },
+    {
+      "nombre": "Tren de hojalata",
+      "imagen": "img/juguetes/Tren-de-hojalata.jpg",
+      "precio": "45€"
+    }
+  ]
+}

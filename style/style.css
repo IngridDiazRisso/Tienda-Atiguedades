@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.first-header {
+  background-color: #f1e0c868;
+  padding: 2%;
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu ul {
+  width: 80vw;
+  color: rgba(55, 38, 29, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-family: "Viaoda Libre", serif;
+  font-weight: 800;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  gap: 5%;
+}
+.nav-menu li:hover {
+  cursor: pointer;
+  text-shadow: 2px 2px 5px rgb(95, 84, 62);
+}
+.div-empty {
+  width: 10vw;
+}
+.banner {
+  background-color: #f1e0c868;
+  display: flex;
+  width: 100%;
+  height: 85vh;
+}
+.background-photobanner {
+  width: 55%;
+  background-color: #f1e0c8;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photobanner {
+  background-image: url("../img/logoGRANDE.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+.description-banner {
+  width: 55%;
+  font-family: "Alegreya SC", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: rgba(55, 38, 29, 1);
+  text-align: center;
+  text-transform: uppercase;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  /* gap: 3%; */
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  width: 100%;
+  font-weight: 500;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 15%;
+}
+.description {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.aboutus {
+  background-color: rgba(55, 38, 29, 1);
+  color: #f1e0c8;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-family: "Viaoda Libre", serif;
+
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 5% 3% 5%;
+  font-size: 1rem;
+}
+
+.image-aboutus {
+  background-image: url("../img/tienda.avif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+.title-sections {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.aboutustext {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 1.8rem;
+  text-align: justify;
+  width: 80%;
+}
+.catalog {
+  background-color: rgba(55, 38, 29, 1);
+  color: #f1e0c8;
+  padding: 5% 5% 0% 5%;
+  font-family: "Viaoda Libre", serif;
+}
+
+.nav-menu-catalog ul {
+  width: 100%;
+  color: #f1e0c8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-family: "Viaoda Libre", serif;
+  font-weight: 800;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  gap: 5%;
+  margin-top: 2%;
+}
+.nav-menu-catalog li:hover {
+  cursor: pointer;
+  text-shadow: 2px 2px 5px #e1b06b;
+  color: rgb(211, 109, 55);
+}
+.nav-menu-catalog li {
+  padding: 4%;
+}
+.container-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 3rem;
+  background-color: #f1e0c8;
+}
+.card-producto {
+  background-color: rgba(55, 38, 29, 1);
+  color: #f1e0c8;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Viaoda Libre", serif;
+  font-size: 1.2em;
+}
+
+.card-producto img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+.nav-menu-catalog li.active {
+  background-color: #f1e0c8;
+  color: rgba(55, 38, 29, 1);
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom: -2.5%;
+}
+.last-footer {
+  width: 100%;
+  height: 30px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 10px;
+  background-color: #f1e0c8;
+}
