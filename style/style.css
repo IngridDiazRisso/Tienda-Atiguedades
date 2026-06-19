@@ -1,7 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
 }
+
 .first-header {
   background-color: #f1e0c868;
   padding: 2%;
@@ -10,7 +14,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.nav-menu ul {
+.nav-menu {
   width: 80vw;
   color: rgba(55, 38, 29, 1);
   display: flex;
@@ -23,7 +27,11 @@
   text-transform: uppercase;
   gap: 5%;
 }
-.nav-menu li:hover {
+.nav-menu a {
+  color: rgba(55, 38, 29, 1);
+  text-decoration: none;
+}
+.nav-menu a:hover {
   cursor: pointer;
   text-shadow: 2px 2px 5px rgb(95, 84, 62);
 }
