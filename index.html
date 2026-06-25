@@ -13,17 +13,20 @@
     />
   </head>
   <body>
+    <a href="#main" class="skip-link">Saltar al contenido principal</a>
+
     <header class="first-header">
       <div>
         <img width="120px" src="img/LOGO2.png" alt="Logo de la tienda" />
       </div>
       <nav class="nav-menu">
-        
-          <a href="#inicio">INICIO</a>
-          <a href="#abotus">SOBRE NOSOTROS</a>
-          <a href="#catalog">COLECCIÓN</a>
-    
+        <ul>
+          <li><a href="#inicio">INICIO</a></li>
+          <li><a href="#aboutus">SOBRE NOSOTROS</a></li>
+          <li><a href="#catalog">COLECCIÓN</a></li>
+        </ul>
       </nav>
+
       <div class="div-empty"></div>
     </header>
     <header class="banner" id="inicio">
@@ -38,7 +41,7 @@
         </p>
       </section>
     </header>
-    <section class="aboutus" id="abotus">
+    <section class="aboutus" id="aboutus">
       <h2 class="title title-sections">SOBRE NOSOTROS</h2>
       <div class="aboutustext">
         <p>
@@ -56,22 +59,21 @@
         </p>
       </div>
     </section>
-    <div class="image-aboutus" ></div>
-    <section class="catalog" id="catalog">
-      <h2 class="title title-sections">CATALOGO<h2>
-      <nav class="nav-menu-catalog">
-        <ul>
-          <li class=" active furniture ">Muebles y decoración</li>
-          <li class="jewelry">Joyeria y complementos</li>
-          <li class="multimedia">Multimedia</li>
-          <li class="toys">Jugetes y colecciónes</li>
-        </ul>
-      </nav>
-    
-    </section>
-    <div class="container-products">
-        
-    </div>
+    <div class="image-aboutus"></div>
+    <main id="main">
+      <section class="catalog" id="catalog">
+        <h2 class="title title-sections">CATÁLOGO</h2>
+        <nav class="nav-menu-catalog">
+          <ul>
+            <li class="active furniture">Muebles y decoración</li>
+            <li class="jewelry">Joyeria y complementos</li>
+            <li class="multimedia">Multimedia</li>
+            <li class="toys">Jugetes y colecciónes</li>
+          </ul>
+        </nav>
+      </section>
+      <div class="container-products"></div>
+    </main>
     <footer class="last-footer">
       Copyrihgt &copy; | Ingrid Diaz Risso | Proyecto IronHack
     </footer>
